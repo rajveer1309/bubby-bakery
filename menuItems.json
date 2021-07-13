@@ -1,0 +1,65 @@
+[
+    {
+        "id":1,
+        "title":"dummy title",
+        "description":"dummy description",
+        "price":"$2.10",
+        "image":"assets/img/menu/lobster-bisque.jpg"
+    },
+    {
+        "id":1,
+        "title":"dummy title",
+        "description":"dummy description",
+        "price":"$2.10",
+        "image":"assets/img/menu/lobster-bisque.jpg"
+    },
+    {
+        "id":1,
+        "title":"dummy title",
+        "description":"dummy description",
+        "price":"$2.10",
+        "image":"assets/img/menu/lobster-bisque.jpg"
+    },
+    {
+        "id":1,
+        "title":"dummy title",
+        "description":"dummy description",
+        "price":"$2.10",
+        "image":"assets/img/menu/lobster-bisque.jpg"
+    },
+    {
+        "id":1,
+        "title":"dummy title",
+        "description":"dummy description",
+        "price":"$2.10",
+        "image":"assets/img/menu/lobster-bisque.jpg"
+    },
+    {
+        "id":1,
+        "title":"dummy title",
+        "description":"dummy description",
+        "price":"$2.10",
+        "image":"assets/img/menu/lobster-bisque.jpg"
+    },
+    {
+        "id":1,
+        "title":"dummy title",
+        "description":"dummy description",
+        "price":"$2.10",
+        "image":"assets/img/menu/lobster-bisque.jpg"
+    },
+    {
+        "id":1,
+        "title":"dummy title",
+        "description":"dummy description",
+        "price":"$2.10",
+        "image":"assets/img/menu/lobster-bisque.jpg"
+    },
+    {
+        "id":1,
+        "title":"dummy title",
+        "description":"dummy description",
+        "price":"$2.10",
+        "image":"assets/img/menu/lobster-bisque.jpg"
+    }
+]
