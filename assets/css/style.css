@@ -24,7 +24,12 @@ a:hover {
   text-decoration: none;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   font-family: "Playfair Display", serif;
 }
 
@@ -256,7 +261,8 @@ h1, h2, h3, h4, h5, h6 {
   position: relative;
 }
 
-.navbar a, .navbar a:focus {
+.navbar a,
+.navbar a:focus {
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -267,13 +273,17 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 14px;
 }
 
-.navbar a i, .navbar a:focus i {
+.navbar a i,
+.navbar a:focus i {
   font-size: 12px;
   line-height: 0;
   margin-left: 5px;
 }
 
-.navbar a:hover, .navbar .active, .navbar .active:focus, .navbar li:hover > a {
+.navbar a:hover,
+.navbar .active,
+.navbar .active:focus,
+.navbar li:hover > a {
   color: #d9ba85;
 }
 
@@ -306,7 +316,9 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 12px;
 }
 
-.navbar .dropdown ul a:hover, .navbar .dropdown ul .active:hover, .navbar .dropdown ul li:hover > a {
+.navbar .dropdown ul a:hover,
+.navbar .dropdown ul .active:hover,
+.navbar .dropdown ul li:hover > a {
   color: #cda45e;
 }
 
@@ -397,7 +409,9 @@ h1, h2, h3, h4, h5, h6 {
   color: #1a1814;
 }
 
-.navbar-mobile a:hover, .navbar-mobile .active, .navbar-mobile li:hover > a {
+.navbar-mobile a:hover,
+.navbar-mobile .active,
+.navbar-mobile li:hover > a {
   color: #cda45e;
 }
 
@@ -429,7 +443,9 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 12px;
 }
 
-.navbar-mobile .dropdown ul a:hover, .navbar-mobile .dropdown ul .active:hover, .navbar-mobile .dropdown ul li:hover > a {
+.navbar-mobile .dropdown ul a:hover,
+.navbar-mobile .dropdown ul .active:hover,
+.navbar-mobile .dropdown ul li:hover > a {
   color: #cda45e;
 }
 
@@ -492,7 +508,8 @@ h1, h2, h3, h4, h5, h6 {
   margin-top: 30px;
 }
 
-#hero .btn-menu, #hero .btn-book {
+#hero .btn-menu,
+#hero .btn-book {
   font-weight: 600;
   font-size: 13px;
   letter-spacing: 0.5px;
@@ -506,7 +523,8 @@ h1, h2, h3, h4, h5, h6 {
   border: 2px solid #cda45e;
 }
 
-#hero .btn-menu:hover, #hero .btn-book:hover {
+#hero .btn-menu:hover,
+#hero .btn-book:hover {
   background: #cda45e;
   color: #fff;
 }
@@ -526,7 +544,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #hero .play-btn::after {
-  content: '';
+  content: "";
   position: absolute;
   left: 50%;
   top: 50%;
@@ -542,7 +560,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #hero .play-btn::before {
-  content: '';
+  content: "";
   position: absolute;
   width: 120px;
   height: 120px;
@@ -570,7 +588,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #hero .play-btn:hover::before {
-  content: '';
+  content: "";
   position: absolute;
   left: 50%;
   top: 50%;
@@ -762,7 +780,7 @@ section {
 
 .about .about-img {
   position: relative;
-  transition: .5s;
+  transition: 0.5s;
 }
 
 .about .about-img img {
@@ -778,10 +796,10 @@ section {
   width: 60px;
   height: 60px;
   z-index: 1;
-  content: '';
+  content: "";
   border-left: 5px solid #cda45e;
   border-top: 5px solid #cda45e;
-  transition: .5s;
+  transition: 0.5s;
 }
 
 .about .about-img::after {
@@ -791,10 +809,10 @@ section {
   width: 60px;
   height: 60px;
   z-index: 2;
-  content: '';
+  content: "";
   border-right: 5px solid #cda45e;
   border-bottom: 5px solid #cda45e;
-  transition: .5s;
+  transition: 0.5s;
 }
 
 .about .about-img:hover {
@@ -879,7 +897,9 @@ section {
   box-shadow: 10px 15px 30px rgba(0, 0, 0, 0.18);
 }
 
-.why-us .box:hover span, .why-us .box:hover h4, .why-us .box:hover p {
+.why-us .box:hover span,
+.why-us .box:hover h4,
+.why-us .box:hover p {
   color: #fff;
 }
 
@@ -908,7 +928,8 @@ section {
   font-family: "Playfair Display", serif;
 }
 
-.menu #menu-flters li:hover, .menu #menu-flters li.filter-active {
+.menu #menu-flters li:hover,
+.menu #menu-flters li.filter-active {
   color: #cda45e;
 }
 
@@ -928,7 +949,6 @@ section {
 }
 
 .menu .menu-content {
-  margin-left: 85px;
   overflow: hidden;
   display: flex;
   justify-content: space-between;
@@ -937,8 +957,8 @@ section {
 
 .menu .menu-content::after {
   content: "......................................................................"
- "...................................................................."
- "....................................................................";
+    "...................................................................."
+    "....................................................................";
   position: absolute;
   left: 20px;
   right: 0;
@@ -972,7 +992,6 @@ section {
 }
 
 .menu .menu-ingredients {
-  margin-left: 85px;
   font-style: italic;
   font-size: 14px;
   font-family: "Poppins", sans-serif;
@@ -1052,7 +1071,7 @@ section {
 }
 
 .events::before {
-  content: '';
+  content: "";
   background-color: rgba(0, 0, 0, 0.8);
   position: absolute;
   top: 0;
@@ -1196,7 +1215,8 @@ section {
   animation: animate-loading 1s linear infinite;
 }
 
-.book-a-table .php-email-form input, .book-a-table .php-email-form textarea {
+.book-a-table .php-email-form input,
+.book-a-table .php-email-form textarea {
   border-radius: 0;
   box-shadow: none;
   font-size: 14px;
@@ -1205,19 +1225,23 @@ section {
   color: white;
 }
 
-.book-a-table .php-email-form input::-webkit-input-placeholder, .book-a-table .php-email-form textarea::-webkit-input-placeholder {
+.book-a-table .php-email-form input::-webkit-input-placeholder,
+.book-a-table .php-email-form textarea::-webkit-input-placeholder {
   color: #a49b89;
 }
 
-.book-a-table .php-email-form input::-moz-placeholder, .book-a-table .php-email-form textarea::-moz-placeholder {
+.book-a-table .php-email-form input::-moz-placeholder,
+.book-a-table .php-email-form textarea::-moz-placeholder {
   color: #a49b89;
 }
 
-.book-a-table .php-email-form input::placeholder, .book-a-table .php-email-form textarea::placeholder {
+.book-a-table .php-email-form input::placeholder,
+.book-a-table .php-email-form textarea::placeholder {
   color: #a49b89;
 }
 
-.book-a-table .php-email-form input:focus, .book-a-table .php-email-form textarea:focus {
+.book-a-table .php-email-form input:focus,
+.book-a-table .php-email-form textarea:focus {
   border-color: #cda45e;
 }
 
@@ -1272,7 +1296,8 @@ section {
   margin: 0 0 0 45px;
 }
 
-.testimonials .testimonial-item .quote-icon-left, .testimonials .testimonial-item .quote-icon-right {
+.testimonials .testimonial-item .quote-icon-left,
+.testimonials .testimonial-item .quote-icon-right {
   color: #d3af71;
   font-size: 26px;
 }
@@ -1404,7 +1429,12 @@ section {
 }
 
 .chefs .member:hover .member-info {
-  background: linear-gradient(0deg, rgba(0, 0, 0, 0.9) 0%, rgba(0, 0, 0, 0.8) 20%, rgba(0, 212, 255, 0) 100%);
+  background: linear-gradient(
+    0deg,
+    rgba(0, 0, 0, 0.9) 0%,
+    rgba(0, 0, 0, 0.8) 20%,
+    rgba(0, 212, 255, 0) 100%
+  );
   opacity: 1;
   transition: 0.4s;
 }
@@ -1454,7 +1484,9 @@ section {
   color: #bab3a6;
 }
 
-.contact .info .open-hours, .contact .info .email, .contact .info .phone {
+.contact .info .open-hours,
+.contact .info .email,
+.contact .info .phone {
   margin-top: 40px;
 }
 
@@ -1511,7 +1543,8 @@ section {
   animation: animate-loading 1s linear infinite;
 }
 
-.contact .php-email-form input, .contact .php-email-form textarea {
+.contact .php-email-form input,
+.contact .php-email-form textarea {
   border-radius: 0;
   box-shadow: none;
   font-size: 14px;
@@ -1520,19 +1553,23 @@ section {
   color: white;
 }
 
-.contact .php-email-form input::-webkit-input-placeholder, .contact .php-email-form textarea::-webkit-input-placeholder {
+.contact .php-email-form input::-webkit-input-placeholder,
+.contact .php-email-form textarea::-webkit-input-placeholder {
   color: #a49b89;
 }
 
-.contact .php-email-form input::-moz-placeholder, .contact .php-email-form textarea::-moz-placeholder {
+.contact .php-email-form input::-moz-placeholder,
+.contact .php-email-form textarea::-moz-placeholder {
   color: #a49b89;
 }
 
-.contact .php-email-form input::placeholder, .contact .php-email-form textarea::placeholder {
+.contact .php-email-form input::placeholder,
+.contact .php-email-form textarea::placeholder {
   color: #a49b89;
 }
 
-.contact .php-email-form input:focus, .contact .php-email-form textarea:focus {
+.contact .php-email-form input:focus,
+.contact .php-email-form textarea:focus {
   border-color: #cda45e;
 }
 
@@ -1728,3 +1765,98 @@ section {
   font-size: 13px;
   color: #fff;
 }
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+
+  width: 100%;
+  color: white;
+  text-align: left;
+}
+.footer {
+  height: 50px;
+  background-color: #cda45e;
+}
+
+#search {
+  padding: 7px;
+  text-align: left;
+}
+
+#cart {
+  text-align: right;
+  padding: 7px;
+
+}
+
+.count {
+  width: 40px;
+}
+
+.minus {
+  padding: 5px;
+  color: white;
+}
+.plus {
+  padding: 5px;
+  color: white;
+}
+
+.qty {
+  text-align: right;
+}
+
+.add-to-cart {
+  padding: 0.25rem 0.5rem;
+  font-size: 0.875rem;
+  border-radius: 0.2rem;
+  color: #fff;
+  background-color: #cda45e;
+  border-color: #cda45e;
+  text-align: center;
+  text-decoration: none;
+  vertical-align: middle;
+  display: inline-block;
+  font-weight: 400;
+  line-height: 1.5;
+}
+
+
+.cart-button {
+  border-radius: 5px;
+  width: 100px;
+  max-height: fit-content;
+  margin-bottom: 5px;
+  font-size: 0.875rem;
+  background-color: #1a1814;
+  color: white;
+}
+
+.btn-modal{
+  border: 2px solid #1a1814;
+  border-radius: 5px;
+  background-color: #1a1814;
+color: white;
+font-size: 1.2rem;
+}
+
+.modal-header{
+  color: white;
+  background-color: #cda45e;
+}
+.modal-body{
+  background-color: #1a1814;
+  color: white;
+}
+
+.modal-content{
+color: #cda45e;
+}
+
+.modal-footer{
+  color: white;
+  background-color: #cda45e;
+}
+
