@@ -244,39 +244,36 @@
       </div>
 
       <!-- Modal body -->
-      <div class="modal-body">
-        <div class="row">
-          <div class="col-5">
-            <p>Chocolate cheesecake</p>
-          </div>
-          <div class="col-5" >
-            <h6>Quantity</h6>
-            <span class="minus bg-dark">-</span>
-              <input type="number" class="count" name="qty" value="1">
-              <span class="plus bg-dark">+</span>
-            </div>
-            <div class="col-2" >
-              <P>Rs 1600/-</P>
-          
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-5">
-            <p>Chocolate cheesecake</p>
-          </div>
-          <div class="col-5" >
-            <span class="minus bg-dark">-</span>
-              <input type="number" class="count" name="qty" value="1">
-              <span class="plus bg-dark">+</span>
-            </div>
-            <div class="col-2" >
-              <P>Rs 1600/-</P>
-          
-          </div>
-        </div>
-      
-      
-      </div>
+      <table class="table">
+        <tbody>
+          <thead>
+            <tr>
+              <th scope="col">#</th>
+              <th scope="col">Item Name</th>
+              <th scope="col">Quantity</th>
+              <th scope="col">Price</th>
+            </tr>
+          </thead>
+          <tr>
+            <th scope="row">1</th>
+            <td>Paneer Pizza Medium</td>
+            <td>
+              <div class="quantity buttons_added">
+              <input type="button" value="-" class="minus"><input type="number" step="1" min="1" max="" name="quantity" value="1" title="Qty" class="input-text qty text" size="4" pattern="" inputmode=""><input type="button" value="+" class="plus"></td>
+            <td>200</td>
+          </tr>
+          <tr>
+            <th scope="row">2</th>
+            <td>Cold Coffee w/ Icecream</td>
+            <td>
+              <div class="quantity buttons_added">
+              <input type="button" value="-" class="minus"><input type="number" step="1" min="1" max="" name="quantity" value="1" title="Qty" class="input-text qty text" size="4" pattern="" inputmode=""><input type="button" value="+" class="plus"></td>
+            <td>150</td>
+            
+          </tr>
+        </tbody>
+      </table>
+      <p class="total-price"> Total price : Rs 350 </p>
 
       <!-- Modal footer -->
       <div class="modal-footer">
@@ -324,6 +321,8 @@
     <script src="../assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
     <script src="../assets/vendor/php-email-form/validate.js"></script>
     <script src="../assets/vendor/swiper/swiper-bundle.min.js"></script>
+    <script data-require="jquery@3.1.1" data-semver="3.1.1" src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="script.js"></script>
 
     <!-- Template Main JS File -->
     <script src="../assets/js/main.js"></script>
