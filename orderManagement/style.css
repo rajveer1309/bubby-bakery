@@ -1,0 +1,62 @@
+.btn.btn-primary{
+ float: right;
+}
+
+.card-text{
+    font-family: Speedee-Regular,Arial,Helvetica,sans-serif;
+}
+
+.h1{
+    text-align: center;
+}
+
+
+
+
+  footer {
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    box-sizing: border-box;
+    background-color: white;
+    text-align: center;
+  }
+  
+
+  .television{
+    text-align: center;
+    font-weight: 600;
+  }
+  .row{
+    margin-left: 100px;
+    margin-right: 100px;
+  }
+  
+  .headings{
+    text-align: center;
+  }
+  
+  .col-sm-6{
+    text-align: -webkit-center;
+  }
+  .card-body{
+    padding: 3rem;
+    border: 2px solid;
+  }
+  
+  .box-number{
+    font-size: 150px;
+  }
+
+  .k-heading{
+    margin-left: 150px;
+    margin-right: 150px;
+  }
+
+
+  .card{
+    margin-left: 150px;
+    margin-right: 150px;
+  }
+  
+  
